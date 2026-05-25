@@ -6,14 +6,14 @@ import coin from '../../assets/image.png'
 const Navbar = () => {
     return (
         <div>
-            <div className=' border-2 border-teal-300 '>
+            <div className=' border- border-teal-300 my-[20px]'>
                 <div className="navbar w-full  max-w-[1300px] mx-auto  bg-base-100 shadow-sm border-2 border-amber-50">
-                <div className="w-1/3  flex-1 border-1 border-green-500">
+                <div className="w-1/3  flex-1 border- border-green-500">
                     <a className="btn btn-ghost text-xl">
                     <img src={logonav} alt="logo loading " />
                     </a>
                 </div>
-                <div className=" flex justify-between w-2/3 border-1 border-red-500 items-center">
+                <div className=" flex justify-between w-2/3 border- border-red-500 items-center">
                     <div className="hidden lg:flex gap-[40px] p-[10px]">
                     <p>Home</p>
                     <p>Fixture</p>

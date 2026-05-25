@@ -11,11 +11,11 @@ const Availableplayers = ({fetchplayersPromise}) => {
     return (
 
 
-        <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-4  max-w-[1300px] mx-auto border-2 border-amber-400'>
+        <div className='w-full grid grid-cols-1 md:grid-cols-3 gap-4  max-w-[1300px] mx-auto border- border-amber-400'>
             
             {
                 Playersdata.map(player =>            
-                    <div class="$$card bg-base-100   shadow-sm p-[20px] border-2 border-gray-300 rounded-[10px]">
+                    <div class="$$card bg-base-100   shadow-sm p-[20px] border-1 border-gray-300 rounded-[10px]">
                         <figure>
                             <img className= ' w-[376px] h-[240px] object-cover rounded-[10px] mb-[20px]'
                             src={player.image}
