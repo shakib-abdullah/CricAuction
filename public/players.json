@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "All_Rounder",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "Right_Arm_Medium",
+    "rating": 95,
+    "price": 1500000,
+    "image": "https://theindianeye.com/wp-content/uploads/2025/12/Sports-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All_Rounder",
+    "batting_style": "Left_Hand_Bat",
+    "bowling_style": "Left_Arm_Spin",
+    "rating": 88,
+    "price": 1100000,
+    "image": "https://www.bssnews.net/assets/news_photos/2023/10/24/image-154567-1698168390.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "Right_Arm_Offbreak",
+    "rating": 90,
+    "price": 1200000,
+    "image": "https://i.ibb.co.com/hRSvL6Ks/3lerc8c8-kane-williamson-625x300-20-May-25.webp"
+  },
+  {
+    "id": 4,
+    "name": "MS Dhoni",
+    "country": "India",
+    "role": "Wicket_Keeper",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "None",
+    "rating": 94,
+    "price": 1450000,
+    "image": "https://i.ibb.co.com/qLnCV45F/images.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Mashrafe Mortaza",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "Right_Arm_Fast_Medium",
+    "rating": 82,
+    "price": 900000,
+    "image": "https://i.ibb.co.com/qYg5TNVQ/mashrafemortaza-0-x.webp"
+  },
+  {
+    "id": 6,
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "batting_style": "Left_Hand_Bat",
+    "bowling_style": "Right_Arm_Medium",
+    "rating": 85,
+    "price": 950000,
+    "image": "https://i.ibb.co.com/k7Yvt6Q/wp8605392.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mushfiqur Rahim",
+    "country": "Bangladesh",
+    "role": "Wicket_Keeper",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "None",
+    "rating": 84,
+    "price": 920000,
+    "image": "https://i.ibb.co.com/spDLC6Wd/20210118212250-thumbnail-mushfiqurrahim.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mehidy Hasan Miraz",
+    "country": "Bangladesh",
+    "role": "All_Rounder",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "Right_Arm_Offbreak",
+    "rating": 83,
+    "price": 880000,
+    "image": "https://i.ibb.co.com/5WJybZDg/403374-ong.webp"
+  },
+  {
+    "id": 9,
+    "name": "Taskin Ahmed",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "Right_Arm_Fast",
+    "rating": 82,
+    "price": 850000,
+    "image": "https://i.ibb.co.com/Dfvq9p1k/images-1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "Right_Arm_Leg_Spin",
+    "rating": 92,
+    "price": 1300000,
+    "image": "https://i.ibb.co.com/Q7gXKkmX/1757071127531-Rashid-Khan-3.webp"
+  },
+  {
+    "id": 11,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "role": "All_Rounder",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "Right_Arm_Fast_Medium",
+    "rating": 91,
+    "price": 1350000,
+    "image": "https://i.ibb.co.com/HLjWHX7F/a5e6820a4a5837ccc221c8162f1374f3.webp"
+  },
+  {
+    "id": 12,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "batting_style": "Right_Hand_Bat",
+    "bowling_style": "Right_Arm_Fast",
+    "rating": 94,
+    "price": 1450000,
+    "image": "https://i.ibb.co.com/Hc70GvT/jasprit-bumrah-t20-wc-20261-1771078904.jpg"
+  }
+]
