@@ -1,6 +1,6 @@
 import React from 'react';
 import {use} from 'react';
-import PlayerCard  from '../PlayerCard/playerCard';
+import PlayerCard  from '../PlayerCard/PlayerCard';
  
 const Availableplayers = ({fetchplayersPromise}) => {
 

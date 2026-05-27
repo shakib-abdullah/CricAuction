@@ -1,19 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import user from '../../assets/Group.png';
 import flag from '../../assets/flag.png';
 
+
+
 const PlayerCard = ({player}) => {
+
+
+
+    const [isselected, setIsselected] = useState(false);
+
+    const handleIsselected = () =>{
+
+        (isselected ) ? setIsselected(false) : setIsselected(true);
+        // console.log(isselected);
+    }
+
+
+
+
     return (
-        <div class="$$card bg-base-100   shadow-sm p-[20px] border-1 border-gray-300 rounded-[10px]">
+        <div className="$$card bg-base-100   shadow-sm p-[20px] border-1 border-gray-300 rounded-[10px]">
             <figure>
                 <img className= ' w-[376px] h-[240px] object-cover rounded-[10px] mb-[20px]'
                 src={player.image}
                 alt="Shoes" />
             </figure>
-            <div class="$$card-body">
+            <div className="$$card-body">
                 <div className=' flex gap-3 mb-[15px]'>
                     <img src={user} alt="" />
-                    <h2 class="$$card-title">{player.name}</h2>
+                    <h2 className="$$card-title">{player.name}</h2>
                 </div>
                 <div className='flex justify-between mb-[20px]'>
                     <div className='flex gap-3'>
@@ -32,7 +48,7 @@ const PlayerCard = ({player}) => {
                 <h2 className='mb-[10px]'>{player.batting_style}</h2>
                 <div className='flex justify-between '>
                     <h2 className='font-bold'>Price:$ <span>{player.price}</span></h2>
-                    <button className='border-1 border-gray-300 w-[130px] h-[30px] text-center rounded-[10px]'>Choose Player</button>
+                    <button onClick={() => handleIsselected()}  className={`border-1 border-gray-300 w-[130px] h-[30px] text-center rounded-[10px]  ${isselected ? "bg-gray-500 text-white" : " "}`}>{ isselected ? "choosed" : "Choose Player"}</button>
                 </div>
                 
             </div>
