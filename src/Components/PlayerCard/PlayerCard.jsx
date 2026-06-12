@@ -4,7 +4,7 @@ import flag from '../../assets/flag.png';
 
 
 
-const PlayerCard = ({player}) => {
+const PlayerCard = ({player , purchasePLayer , setPurchasePLayer}) => {
 
 
 
@@ -14,6 +14,9 @@ const PlayerCard = ({player}) => {
 
         (isselected ) ? setIsselected(false) : setIsselected(true);
         // console.log(isselected);
+
+
+        setPurchasePLayer([...purchasePLayer , player])
     }
 
 
@@ -48,7 +51,7 @@ const PlayerCard = ({player}) => {
                 <h2 className='mb-[10px]'>{player.batting_style}</h2>
                 <div className='flex justify-between '>
                     <h2 className='font-bold'>Price:$ <span>{player.price}</span></h2>
-                    <button onClick={() => handleIsselected()}  className={`border-1 border-gray-300 w-[130px] h-[30px] text-center rounded-[10px]  ${isselected ? "bg-gray-500 text-white" : " "}`}>{ isselected ? "choosed" : "Choose Player"}</button>
+                    <button onClick={() => handleIsselected()}  className={`border-1 border-gray-300 w-[130px] h-[30px] text-center rounded-[10px]  ${isselected ? "bg-gray-200 text-white" : "bg-blue-500 text-whitej "}`}>{ isselected ? "choosed" : "Choose Player"}</button>
                 </div>
                 
             </div>
